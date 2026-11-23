@@ -1,0 +1,52 @@
+# ==============================================================================
+# Unreal Engine 5 (.gitignore)
+# ==============================================================================
+
+# Unreal Engine Build, Cache & Runtime Directories
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+LocalBuilds/
+Releases/
+
+# Personal Developer Scratch Content
+Content/Developers/
+
+# Visual Studio / Rider / VS Code / Xcode Project Files
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.opendb
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+*.vcxproj
+*.vcxproj.*
+*.xcodeproj/
+*.xcworkspace/
+*.code-workspace
+compile_commands.json
+.vsconfig
+
+# Compiled Artifacts, Symbols & Temporary Files
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.obj
+*.ilk
+*.log
+*.tmp
+*.bak
+*.dmp
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+Desktop.ini
